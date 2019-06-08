@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/skeleton.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+
+<body>
+
+    <audio src="sample.mp3" id="ramesh"></audio>
+
+    <div class="container">
+        <div class="row">
+            <div class="vertical-center">
+                <H1>Music player</H1>
+            </div>
+        </div>
+
+        <div class="row vertical-center">
+            <button class="button-round" onclick="jump(-5)"><i class="fas fa-fast-backward"></i></button>
+            <button class="button-round button-primary" onclick="play()" id="ramu"><i class="fas fa-play"></i></button>
+            <button class="button-round" onclick="jump(5)"><i class="fas fa-fast-forward"></i></button>
+            <button class="button-round" onclick="stop()"><i class="fas fa-stop"></i></button>
+
+        </div>
+
+    </div>
+
+    <script src="play.js"></script>
+</body>
+
+</html>
